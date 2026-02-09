@@ -1,0 +1,37 @@
+ header {
+ background-color: black;
+ padding: 20px;
+            color: aliceblue;
+            text-align: center;
+}
+        nav ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+        main{
+            background-color: chocolate;
+            height: 200%;
+            margin-top:20px;
+            padding: 20px;
+        }
+        section{
+         background-color: aquamarine;
+         padding:1px;
+         
+        }
+        div{
+            background-color: coral;
+        }
+        footer {
+            background-color: rgb(255, 238, 0);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
