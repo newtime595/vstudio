@@ -1,7 +1,7 @@
 # vstudio
-header
+header + nav
 <img width="1441" height="861" alt="image" src="https://github.com/user-attachments/assets/47d415cb-2959-42d5-b5ca-70aeee73a320" />
-header nav
+main
 <img width="1444" height="854" alt="image" src="https://github.com/user-attachments/assets/23bb66c3-01e4-442c-a815-cf03c48c89b3" />
 main
 <img width="1457" height="848" alt="image" src="https://github.com/user-attachments/assets/e317f0db-b825-4e9b-80b9-e737eb54388f" />
