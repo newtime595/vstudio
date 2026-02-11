@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    border: 0;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: black;
+    border: 1px solid black;
+    color: aliceblue;
+    height: 200px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    background-color: aliceblue;
+    border: 1px solid blue;
+    color:blueviolet;
+    
+    /* display:flex; */
+    /* flex-direction: row; */
+      
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    bottom: 0;
+    /* flex-direction: row; */
+}
+
+.header headerdiv{
+    bottom: 0;
+}
+
+
+
+main{
+    background-color: aquamarine;
+    height: 2000px;
+
+
+
+
+}
+
+.card{
+    background-color: aliceblue;
+    width: 250px;
+}
+.cardImg{
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+.cardicon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    padding: 4px;;
+}
+.cardImg img{
+    width: 100%;
+}
+
+.cardinfo{
+    background-color: blanchedalmond;
+}
