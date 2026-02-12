@@ -11,7 +11,7 @@
 <header class="header">
   <!-- <h1>헤더</h1> -->
   <nav class="nav"> 
-    <h1> 헤더 네비</h1>
+    <div class="navlist">
     <ul>
       <li><a href="#">메뉴1</a></li>
       <li><a href="#">메뉴2</a></li>
@@ -22,6 +22,10 @@
       <li><a href="#">메뉴7</a></li>
       <li><a href="#">메뉴8</a></li>
       <li><a href="#">메뉴9</a></li>
+    </ul>
+    </div>
+    <div class="navlist2">
+    <ul>
       <li><a href="#">메뉴10</a></li>
       <li><a href="#">메뉴11</a></li>
       <li><a href="#">메뉴12</a></li>
@@ -29,6 +33,7 @@
       <li><a href="#">메뉴14</a></li>
       <li><a href="#">메뉴15</a></li>
     </ul>
+    </div>
   </nav>
   <search>search</search>
   <div class ="headerdiv"> 헤더 영역 작성</div>
@@ -36,46 +41,40 @@
 
 <main>
   <h1>메인</h1>   
-    <section class="article-container"></section>
-    <aticle class="content1"> 
-    <div>
-      <div class="artTitle">
-        <p class="title">겨울 스킨케어 보습 아이템 크림</p>
-        <button>더보기</button>
-      </div>
+    <section class="article-container">
+      <aticle class="content1"> 
+        <div class="artTitle">
+          <p class="title">겨울 스킨케어 보습 아이템 크림</p>
+          <button>더보기</button>
+        </div>
+
       <div class="ariList">
-        <div>
-          <ul>
-            <li>
-              <div class="card">
-                <div class="cardImg">
-                  <img src="./../img/saple.jpg">
+        <ul>
+          <!-- chapter1 list -->
+          <li>
+            <div class="card">
+              <div class="cardImg">
+                <img src="./../img/saple.jpg">
                   <div class="cardicon"> 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                      <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                     </svg>
                   </div>
-                </div>
-                <div class="cardinfo">
-                  <p class="cardinfo-title">에스트라</p>
-                  <p class="cardinfo-text">아토베리어 365 어쩌고 설명들어감</p>
-                  <p class="cardinfo-price">
-                    <span class="cardinfo-price-point">24%</span>25,080원
-                  </p>
-                </div>
+             </div>
 
+             <div class="cardinfo">
+                <p class="cardinfo-title">에스트라</p>
+                <p class="cardinfo-text">아토베리어 365 어쩌고 설명들어감</p>
+                <p class="cardinfo-price">
+                 <span class="cardinfo-price-point">24%</span>25,080원 </p>
               </div>
-            </li>
-            
-              
+            </div>
+          </li>
           
-          </ul>
-        </div>
+        </ul>
       </div>
-    </div>
-
     </aticle>
-
+</section>
 </main>
 
 
